@@ -1,0 +1,16 @@
+{
+  "token_hmac_secret_key": "a900c267-3de3-48c0-9243-67705f146ec6",
+  "admin_password": "a87bcc8f-6d45-40e0-b6e3-8c067301abff",
+  "admin_secret": "7df010e1-a73b-48b9-9354-80b019855aa1",
+  "api_key": "7bc9937f-542c-493b-9353-254673804ba1",
+  "allowed_origins": ["http://localhost:8000"],
+  "proxy_connect_endpoint": "http://localhost:3000/centrifugo/connect",
+  "proxy_connect_timeout":  "1s",
+  "namespaces": [
+        {
+          "name": "public",
+          "publish": true,
+          "anonymous": true
+        }
+    ]
+}
