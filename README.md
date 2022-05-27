@@ -6,5 +6,6 @@
 
 Чтобы получить измененный топ нужно сделать POST-запрос на http://localhost:3000/centrifugo/connect и передать json:
 
-```{"top": XX}
+```
+{"top": XX}
 ```
